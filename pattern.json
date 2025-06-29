@@ -1,0 +1,13 @@
+{
+    "source": [
+        "aws.amazonmq"
+    ],
+    "detail-type": [
+        "AWS API Call via CloudTrail"
+    ],
+    "detail": {
+        "eventSource": [
+            "amazonmq.amazonaws.com"
+        ]
+    }
+}

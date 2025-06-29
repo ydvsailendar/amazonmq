@@ -1,0 +1,42 @@
+{
+    "eventVersion": "1.09",
+    "userIdentity": {
+        "type": "AssumedRole",
+        "principalId": "xxxxxxxxxx:ydvsailendar",
+        "arn": "arn:aws:sts::xxxxxxxxxx:assumed-role/AWSReservedSSO_devsecops_0104d6c089f84f14/ydvsailendar",
+        "accountId": "xxxxxxxxxx",
+        "accessKeyId": "xxxxxxxxxx",
+        "sessionContext": {
+            "sessionIssuer": {
+                "type": "Role",
+                "principalId": "xxxxxxxxxx",
+                "arn": "arn:aws:iam::xxxxxxxxxx:role/aws-reserved/sso.amazonaws.com/eu-west-2/AWSReservedSSO_devsecops_0104d6c089f84f14",
+                "accountId": "xxxxxxxxxx",
+                "userName": "xxxxxxxxxx"
+            },
+            "attributes": {
+                "creationDate": "2025-06-29T10:43:37Z",
+                "mfaAuthenticated": "false"
+            }
+        }
+    },
+    "eventTime": "2025-06-29T10:43:38Z",
+    "eventSource": "amazonmq.amazonaws.com",
+    "eventName": "DeleteBroker",
+    "awsRegion": "eu-west-2",
+    "sourceIPAddress": "80.6.155.158",
+    "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.10.5 (+https://www.terraform.io) terraform-provider-aws/6.0.0 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go-v2/1.36.3 ua/2.1 os/macos lang/go#1.24.4 md/GOOS#darwin md/GOARCH#arm64 api/mq#1.29.0 m/t,u",
+    "requestParameters": {
+        "broker-id": "b-84973bba-520b-4520-bf6f-53b0b0328af7"
+    },
+    "responseElements": {
+        "brokerId": "b-84973bba-520b-4520-bf6f-53b0b0328af7"
+    },
+    "requestID": "7fc19432-e62f-4d25-83e1-6d5cb1cf1491",
+    "eventID": "83253632-e65a-4935-968c-15c8bbcc1971",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "xxxxxxxxxx",
+    "eventCategory": "Management"
+}
